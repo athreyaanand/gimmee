@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_profile_setup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="xyz.tracestudios.gimmee.ProfileSetupActivity"
+    tools:showIn="@layout/activity_profile_setup">
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/avatar"
+            android:id="@+id/profile_picture"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="How do you look?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/profileNameEditText"
+            android:hint="First and Last"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="What's your name?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/profileNameEditText"
+            android:layout_centerHorizontal="true"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/usernameEditText"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/profileNameEditText"
+            android:hint="Username"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="What do you want to go by?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/usernameEditText"
+            android:layout_centerHorizontal="true"
+            android:textSize="14dp" />
+
+        <EditText
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/bioEditText"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/profileNameEditText"
+            android:hint="Bio"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:text="Tell us a little about yourself!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/bioEditText"
+            android:layout_centerHorizontal="true"
+            android:textSize="14dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_marginTop="60dp"
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            app:srcCompat="@drawable/ic_arrow_forward_white_24dp" />
+    </LinearLayout>
+
+</RelativeLayout>

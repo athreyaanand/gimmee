@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fafafa">
+
+    <include  layout="@layout/card_header" android:id="@+id/header" />
+
+    <include  layout="@layout/card_image" android:id="@+id/image" />
+
+    <include  layout="@layout/card_about" android:id="@+id/about" />
+
+    <include  layout="@layout/card_meta" android:id="@+id/meta" />
+
+</LinearLayout>

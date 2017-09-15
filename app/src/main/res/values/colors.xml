@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#E0F2F1</color>
+    <!-- Toolbar -->
+    <color name="colorPrimary">#00BFA5</color>
+    <!-- Status bar -->
+    <color name="colorPrimaryDark">#26A69A</color>
+    <!-- Navigation bar-->
+    <color name="navigationBarColor">#00BFA5</color>
+
+    <color name="windowBackground">#E0F2F1</color>
+    <color name="textIconColorPrimary">#FFFFFF</color>
+    <color name="textBlack">#000000</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#727272</color>
+
+    <color name="colorAccentLight">#A7FFEB</color>
+    <color name="colorAccent">#64FFDA</color>
+    <color name="colorAccentDark">#1DE9B6</color>
+
+    <color name="facebook_bg">#3b5998</color>
+    <color name="facebook_bg_pressed">#2a406e</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#bd000000</color>
+    <color name="black_transparent_70percent">#B3000000</color>
+    <color name="semi_light_transparent">#5a000000</color>
+    <color name="semi_lighter_transparent">#2d000000</color>
+
+    <color name="background_grey">#f2f2f2</color>
+    <color name="line_lighter_grey">#dedede</color>
+    <color name="line_light_grey">#d7a7a7a7</color>
+    <color name="item_grey">#eeeeee</color>
+    <color name="grey_lighter">#bcbcbc</color>
+    <color name="grey">#d7666666</color>
+
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+    <color name="btn_send_normal">#02c754</color>
+    <color name="btn_send_pressed">#006633</color>
+    <color name="btn_default_shadow">#99000000</color>
+    <color name="btn_context_menu_normal">#ffffff</color>
+    <color name="btn_context_menu_pressed">#40000000</color>
+    <color name="btn_context_menu_text_red">#ffff0000</color>
+
+    <!--Setup Activity Color Scheme -->
+        <!-- Screens background color-->
+        <color name="bg_screen1">#f64c73</color>
+        <color name="bg_screen2">#20d2bb</color>
+        <color name="bg_screen3">#3395ff</color>
+        <color name="bg_screen4">#c873f4</color>
+
+        <!-- dots inactive colors -->
+        <color name="dot_dark_screen1">#d1395c</color>
+        <color name="dot_dark_screen2">#14a895</color>
+        <color name="dot_dark_screen3">#2278d4</color>
+        <color name="dot_dark_screen4">#a854d4</color>
+
+        <!-- dots active colors -->
+        <color name="dot_light_screen1">#f98da5</color>
+        <color name="dot_light_screen2">#8cf9eb</color>
+        <color name="dot_light_screen3">#93c6fd</color>
+        <color name="dot_light_screen4">#e4b5fc</color>
+
+        <array name="array_dot_active">
+            <item>@color/dot_light_screen1</item>
+            <item>@color/dot_light_screen2</item>
+            <item>@color/dot_light_screen3</item>
+            <item>@color/dot_light_screen4</item>
+        </array>
+
+        <array name="array_dot_inactive">
+            <item>@color/dot_dark_screen1</item>
+            <item>@color/dot_dark_screen2</item>
+            <item>@color/dot_dark_screen3</item>
+            <item>@color/dot_dark_screen4</item>
+        </array>
+
+        <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="13dp"
+            android:background="@drawable/ic_interest_normal"
+            android:id="@+id/postInterestIcon"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="center_vertical">
+        </ImageView>
+
+        <TextView
+            android:text="16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/postInterestAmount"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorSecondary"/>
+
+        <Space
+            android:layout_width="24dp"
+            android:layout_height="fill_parent" />
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="@drawable/ic_comment_normal"
+            android:id="@+id/postCommentIcon"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="center_vertical">
+        </ImageView>
+
+        <TextView
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/postCommentAmount"
+            android:textSize="16sp"
+            android:textColor="?android:attr/textColorSecondary" />
+
+        <Space
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+
+        <Button
+            android:text="$0.00"
+            android:minWidth="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="#fafafa"
+            android:background="@drawable/price_button"
+            android:id="@+id/postBuyBttn" />
+
+    </LinearLayout>
+</LinearLayout>

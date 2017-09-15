@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1017351398902",
+    "firebase_url": "https://gimmee-7e1c5.firebaseio.com",
+    "project_id": "gimmee-7e1c5",
+    "storage_bucket": "gimmee-7e1c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017351398902:android:274b3e6f53321ea6",
+        "android_client_info": {
+          "package_name": "xyz.tracestudios.gimmee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017351398902-fsi77shu5cnjrmh4kdhmduusnfus9qsu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.tracestudios.gimmee",
+            "certificate_hash": "17D5BF2AAC7141895E657DCBFDB6F8A18A98B602"
+          }
+        },
+        {
+          "client_id": "1017351398902-bqp9ommv63iuiqp60j85lt5nhia9bm70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI4pfcUmbEE6v9Zg_UW3AauNSb2n6PlLk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017351398902-bqp9ommv63iuiqp60j85lt5nhia9bm70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
